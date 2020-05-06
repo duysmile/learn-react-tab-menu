@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.tab-menu {
+  width: 100%;
+  display: flex;
+}
+
+.tab-item {
+  padding: 15px;
+  border-right: solid 1px #DDD;
+  border-bottom: solid 1px #DDD;
+  border-top: solid 2px #DDD;
+  flex-grow: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(221, 221, 221, 0.5);
+  color: #8E8E8E;
+}
+
+.tab-item .icon {
+  width: 30px;
+  height: 30px;
+  background-color: #8E8E8E;
+}
+
+.tab-item:hover {
+  background-color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-top: 2px solid #8CDC52;
+}
+
+.tab-item:hover .icon {
+  background-color: #8CDC52;
+}
+
+.tab-item:hover span {
+  color: #8CDC52;
+}
+
+.tab-item span {
+  text-transform: uppercase;
+  margin-top: 5px;
+  font-size: 0.9rem;
+}
